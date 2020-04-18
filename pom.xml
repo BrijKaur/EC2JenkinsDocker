@@ -68,9 +68,8 @@
         </plugin>
       </plugins>
     </pluginManagement>
+		 
+		   <finalName>calligraphyapp</finalName>
   </build>
 	
-  <build>
-    <finalName>calligraphyapp</finalName>
-  </build>
-</project>
+ </project>
