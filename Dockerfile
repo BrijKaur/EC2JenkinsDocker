@@ -6,4 +6,4 @@ COPY ./target/calligraphyapp.war /usr/local/tomcat/webapps/
 
 EXPOSE 8080
 
-ENTRYPOINT ["catalina.sh", "run"","-DFOREGROUND"]
+ENTRYPOINT ["catalina.sh", "run","-DFOREGROUND"]
