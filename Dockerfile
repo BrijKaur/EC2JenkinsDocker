@@ -2,7 +2,7 @@ FROM tomcat
 
 MAINTAINER Brajender Kaur
 
-COPY ./calligraphyapp.war /usr/local/tomcat/webapps/
+COPY ./buildpackage/calligraphyapp.war /usr/local/tomcat/webapps/
 
 EXPOSE 8080
 
