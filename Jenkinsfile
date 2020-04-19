@@ -9,7 +9,7 @@ pipeline {
             git 'https://github.com/BrijKaur/EC2JenkinsDocker.git'
 
             // Run Maven on a Unix agent.
-            sh "mvn clean install package"
+            sh "mvn package"
 
         }
 
